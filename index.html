@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotter.ai - Trucking Automation that Works for You</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <a
+          href="file:///C:/Users/Ravindu/OneDrive/Desktop/Spotter.ai/index.html"
+          class="logo"
+        >
+          <span class="logo-dots">...</span>Spotter
+        </a>
+        <div style="display: flex; align-items: center">
+          <ul class="nav-links">
+            <li>
+              <a
+                href="file:///C:/Users/Ravindu/OneDrive/Desktop/Spotter.ai/index.html"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a href="https://spotter.ai/lens">Lens</a>
+              <ul class="dropdown">
+                <li>
+                  <a
+                    href="file:///C:/Users/Ravindu/OneDrive/Desktop/Spotter.ai/index.html"
+                    >Features</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="file:///C:/Users/Ravindu/OneDrive/Desktop/Spotter.ai/index.html"
+                    >Pricing</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="file:///C:/Users/Ravindu/OneDrive/Desktop/Spotter.ai/index.html"
+                    >Request Demo</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="https://spotter.ai/tms">TMS</a>
+              <ul class="dropdown">
+                <li><a href="https://spotter.ai/tms/overview">Overview</a></li>
+                <li>
+                  <a href="https://spotter.ai/tms/integration">Integrations</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="https://spotter.ai/sentinel">Sentinel</a>
+              <ul class="dropdown">
+                <li>
+                  <a href="https://spotter.ai/sentinel/how-it-works"
+                    >How it Works</a
+                  >
+                </li>
+                <li>
+                  <a href="https://spotter.ai/sentinel/pricing">Pricing</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="https://extension.spotter.ai">Extension</a>
+            </li>
+            <li>
+              <a href="https://spotter.ai/driversapp">Spotter App</a>
+              <ul class="dropdown">
+                <li>
+                  <a href="https://spotter.ai/driversapp/download">Download</a>
+                </li>
+                <li>
+                  <a href="https://spotter.ai/driversapp/help"
+                    >Help & Support</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="https://spotter.ai/loan-calculators">Loan Calculators</a>
+            </li>
+            <li>
+              <a href="https://spotter.ai/insights">Insights</a>
+              <ul class="dropdown">
+                <li><a href="https://spotter.ai/insights/blog">Blog</a></li>
+                <li><a href="https://spotter.ai/insights/news">News</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div>
+            <a
+              href="file:///C:/Users/Ravindu/OneDrive/Desktop/Spotter.ai/index.html"
+              class="signup-btn"
+              >Sign Up</a
+            >
+          </div>
+        </div>
+        <!-- Mobile Menu Button -->
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay">
+      <div class="mobile-menu-container">
+        <div class="mobile-menu-header">
+          <a
+            href="file:///C:/Users/Ravindu/OneDrive/Desktop/Spotter.ai/index.html"
+            class="mobile-logo"
+          >
+            <span class="logo-dots">...</span>Spotter
+          </a>
+          <button class="mobile-menu-close" id="mobileMenuClose">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+
+        <ul class="mobile-nav-links">
+          <li>
+            <a
+              href="file:///C:/Users/Ravindu/OneDrive/Desktop/Spotter.ai/index.html"
+            >
+              <i class="fas fa-home"></i>
+              Home
+            </a>
+          </li>
+          <li class="mobile-dropdown">
+            <a href="https://spotter.ai/lens" class="mobile-dropdown-toggle">
+              <i class="fas fa-eye"></i>
+              Lens
+              <i class="fas fa-chevron-down mobile-chevron"></i>
+            </a>
+            <ul class="mobile-dropdown-menu">
+              <li>
+                <a
+                  href="file:///C:/Users/Ravindu/OneDrive/Desktop/Spotter.ai/index.html"
+                  >Features</a
+                >
+              </li>
+              <li>
+                <a
+                  href="file:///C:/Users/Ravindu/OneDrive/Desktop/Spotter.ai/index.html"
+                  >Pricing</a
+                >
+              </li>
+              <li>
+                <a
+                  href="file:///C:/Users/Ravindu/OneDrive/Desktop/Spotter.ai/index.html"
+                  >Request Demo</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="mobile-dropdown">
+            <a href="https://spotter.ai/tms" class="mobile-dropdown-toggle">
+              <i class="fas fa-truck"></i>
+              TMS
+              <i class="fas fa-chevron-down mobile-chevron"></i>
+            </a>
+            <ul class="mobile-dropdown-menu">
+              <li><a href="https://spotter.ai/tms/overview">Overview</a></li>
+              <li>
+                <a href="https://spotter.ai/tms/integration">Integrations</a>
+              </li>
+            </ul>
+          </li>
+          <li class="mobile-dropdown">
+            <a
+              href="https://spotter.ai/sentinel"
+              class="mobile-dropdown-toggle"
+            >
+              <i class="fas fa-shield-alt"></i>
+              Sentinel
+              <i class="fas fa-chevron-down mobile-chevron"></i>
+            </a>
+            <ul class="mobile-dropdown-menu">
+              <li>
+                <a href="https://spotter.ai/sentinel/how-it-works"
+                  >How it Works</a
+                >
+              </li>
+              <li><a href="https://spotter.ai/sentinel/pricing">Pricing</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="https://extension.spotter.ai">
+              <i class="fas fa-puzzle-piece"></i>
+              Extension
+            </a>
+          </li>
+          <li class="mobile-dropdown">
+            <a
+              href="https://spotter.ai/driversapp"
+              class="mobile-dropdown-toggle"
+            >
+              <i class="fas fa-mobile-alt"></i>
+              Spotter App
+              <i class="fas fa-chevron-down mobile-chevron"></i>
+            </a>
+            <ul class="mobile-dropdown-menu">
+              <li>
+                <a href="https://spotter.ai/driversapp/download">Download</a>
+              </li>
+              <li>
+                <a href="https://spotter.ai/driversapp/help">Help & Support</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="https://spotter.ai/loan-calculators">
+              <i class="fas fa-calculator"></i>
+              Loan Calculators
+            </a>
+          </li>
+          <li class="mobile-dropdown">
+            <a
+              href="https://spotter.ai/insights"
+              class="mobile-dropdown-toggle"
+            >
+              <i class="fas fa-chart-line"></i>
+              Insights
+              <i class="fas fa-chevron-down mobile-chevron"></i>
+            </a>
+            <ul class="mobile-dropdown-menu">
+              <li><a href="https://spotter.ai/insights/blog">Blog</a></li>
+              <li><a href="https://spotter.ai/insights/news">News</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <div class="mobile-menu-footer">
+          <a
+            href="file:///C:/Users/Ravindu/OneDrive/Desktop/Spotter.ai/index.html"
+            class="mobile-signup-btn"
+          >
+            <i class="fas fa-user-plus"></i>
+            Sign Up
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Background Elements -->
+      <div class="background-dots">
+        <div class="dot dot-1"></div>
+        <div class="dot dot-2"></div>
+        <div class="dot dot-3"></div>
+        <div class="dot dot-4"></div>
+        <div class="dot dot-5"></div>
+      </div>
+
+      <!-- Hero Section -->
+      <section class="hero">
+        <h1 class="hero-title">
+          Trucking <span class="highlight">Automation</span> that works for you
+        </h1>
+        <div class="cta-section">
+          <button class="cta-button">
+            Unlock the Future of Freight
+            <span class="chevron">▼</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- Call to Action -->
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
