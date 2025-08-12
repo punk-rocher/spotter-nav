@@ -585,7 +585,7 @@ body {
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
   .nav-container {
     padding: 0 1rem;
   }
